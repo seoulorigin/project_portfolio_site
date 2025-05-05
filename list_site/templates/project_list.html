@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>프로젝트 목록</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f9f9f9;
+      margin: 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 16px;
+      width: 300px;
+      box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+    }
+    .title {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .score {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>프로젝트 목록</h1>
+  <div class="container">
+    {% for project in projects %}
+      <div class="card">
+        <div class="title">{{ project.title }}</div>
+      </div>
+    {% empty %}
+      <p>등록된 프로젝트가 없습니다.</p>
+    {% endfor %}
+  </div>
+</body>
+</html>

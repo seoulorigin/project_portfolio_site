@@ -16,3 +16,8 @@ docker-compose up --build
 ## 관리자 계정
 ID : admin  
 Password : admin
+
+## 참고 사진
+![image](https://github.com/user-attachments/assets/41b193f7-eecd-4ae2-8be9-5b01c61800b0)  
+![image](https://github.com/user-attachments/assets/617d3add-ace0-4b4f-860c-5f062708d10c)
+

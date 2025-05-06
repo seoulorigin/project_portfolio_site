@@ -12,6 +12,6 @@ def project_detail(request, pk):
     if request.method == 'POST':
         score_value = int(request.POST.get('score'))
         Score.objects.create(project=project, score=score_value)
-        return redirect('project_list')  # ⬅️ 목록 페이지로 이동
+        return redirect('project_list')
     
     return render(request, 'project_detail.html', {'project': project})

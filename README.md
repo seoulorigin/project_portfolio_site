@@ -11,3 +11,8 @@
 git clone https://github.com/seoulorigin/project_portfolio_site.git
 cd project_portfolio_site
 docker-compose up --build
+```
+
+## 관리자 계정
+ID : admin
+Password : admin

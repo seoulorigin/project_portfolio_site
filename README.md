@@ -14,5 +14,5 @@ docker-compose up --build
 ```
 
 ## 관리자 계정
-ID : admin
+ID : admin  
 Password : admin

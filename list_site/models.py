@@ -4,14 +4,8 @@ from django.db import models
 
 class Project(models.Model):
     title = models.CharField(max_length=50)
-    # desc = models.TextField()
-    # created_at = models.DateTimeField(auto_now_add=True)
-    # SCORE_CHOICES = [
-    #     (1, "1점"),
-    #     (2, "2점"),
-    #     (3, "3점"),
-    #     (4, "4점"),
-    #     (5, "5점"),
-    # ]
-
-    # score = models.IntegerField(choices=SCORE_CHOICES, default=1)
+    desc = models.TextField(default = "기본 설명")
+    
+class Score(models.Model):
+    project = models.ForeignKey(Project, on_delete=models.CASCADE)
+    score = models.IntegerField()

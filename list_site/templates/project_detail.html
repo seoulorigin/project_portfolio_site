@@ -1,1 +1,25 @@
-<h1>{{ project.title }}</h1>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ project.title }}</title>
+</head>
+<body>
+  <h1>{{ project.title }}</h1>
+  <p>{{ project.desc }}</p>
+  <hr>
+
+  <form method="post">
+    {% csrf_token %}
+    <label for="score">점수 평가 (1~5):</label>
+    <select name="score" id="score" required>
+      <option value="1">1점</option>
+      <option value="2">2점</option>
+      <option value="3">3점</option>
+      <option value="4">4점</option>
+      <option value="5">5점</option>
+    </select>
+    <button type="submit">제출</button>
+  </form>
+</body>
+</html>

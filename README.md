@@ -12,6 +12,9 @@
 ```bash
 git clone https://github.com/seoulorigin/project_portfolio_site.git
 cd project_portfolio_site
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 docker-compose up --build
 ```
 

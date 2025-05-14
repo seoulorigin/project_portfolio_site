@@ -26,5 +26,4 @@ Password : admin
 ![image](https://github.com/user-attachments/assets/e8e551b6-21b1-4626-b2b7-07f7571ed8bc)  
 ![image](https://github.com/user-attachments/assets/77f1923e-41a7-4836-8cfb-7b8b2d216c62)  
 ![image](https://github.com/user-attachments/assets/69bc9907-eae5-437e-8822-63777d7c4cc7)  
-<img width="1256" alt="스크린샷 2025-05-14 오후 2 04 47" src="https://github.com/user-attachments/assets/4ffce7dc-bb09-401f-8092-fe0c0c5f4b11" />
-
+![image](https://github.com/user-attachments/assets/44458717-d825-45ab-a28b-70b4edee32ad)
